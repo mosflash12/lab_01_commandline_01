@@ -11,15 +11,15 @@ Follow the instructions line-by-line.
 ==========
 1. Open a new terminal window.
 ----------
-
+<Command> <N>
 ==========
 2. Create a directory called mtec1002.
 ----------
-
+mkdir mtech1002
 ==========
 3. Change your directory so that you're in mtec1002.
 ----------
-
+cd mtech1002
 ==========
 4. Type:
 
@@ -32,7 +32,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/Users/dexter.manswell85/mtech1002
 
 ==========
 5. Type:
@@ -43,7 +43,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals
 
 ==========
 6. Type:
@@ -54,7 +54,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals	food
 
 ==========
 7. Type:
@@ -65,7 +65,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals	foo	food
 
 ==========
 8. Type:
@@ -76,7 +76,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/dexter.manswell85/mtech1002/foo/bar/baz/qux
 
 ==========
 9. Type:
@@ -87,7 +87,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/dexter.manswell85/mtech1002/foo/bar
 
 ==========
 10. Type:
@@ -98,7 +98,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/dexter.manswell85/mtech1002/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -108,7 +108,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/dexter.manswell85/mtech1002
 
 
 ==========
@@ -120,7 +120,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+total 0
+drwxr-xr-x  3 dexter.manswell85  ACADEMIC\Domain Users  96 Feb  4 15:28 foo
 
 
 ==========
@@ -132,7 +133,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/dexter.manswell8
 
 ==========
 14. Type:
@@ -143,7 +144,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Volumes
 
 ==========
 15. Type:
@@ -154,7 +155,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+-bash: cd: /unknown_folder: No such file or directory
 
 ==========
 15. Type:
@@ -165,7 +166,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/dexter.manswell85/mtech1002
 
 ==========
 16. Type:
@@ -175,13 +176,14 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+V217-M12.local
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+V217-M12:mtech1002 dexter.manswell85$ pwd
+/Users/dexter.manswell85/mtech1002
 
 ==========
 17b. If you're not in the right directory, type the following command:
@@ -204,7 +206,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 ==========
 19. Make another directory called aardvark.  
@@ -212,7 +214,7 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir aardvark
 
 ==========
 20. List the files and directories in the current directory using the long format.  
@@ -220,7 +222,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+aardvark	foo		food		pineapple
 
 ==========
 21. Make 3 directories nested within each other:
@@ -232,14 +234,16 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
 
 What command did you use?
 ----------
+cd foo first
 
+cd bar second
 
 
 ==========
@@ -247,44 +251,45 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
 
-
+-l
 
 ==========
 27. What's the shortcut for home directory?
 ----------
 
-
+cd ~
 
 ==========
 28. What's a pathname?
 ----------
 
-
+The location of the file
 
 ==========
 29. What's a directory?
 ----------
 
-
+A thing that references other files 
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/dexter.manswell85/Downloads
